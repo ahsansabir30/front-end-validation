@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="form-container">
+            <form action="https://formsubmit.co/ahsansabir30@gmail.com" method="POST">
+                <span>Fullname:</span>
+                <input type="text" id="fullname" name="fullname" minlength="4" pattern="^(\w\w+)\s(\w+)$" required>
+                <br>
+                <span>Email Address:</span>
+                <input type="text" id="email" name="email" minlength="8" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                <br>
+                <span>Card Number:</span>
+                <input type="text" id="card" name="card" pattern="[0-9]+" required>
+                <br>
+                <input id="submit" type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
